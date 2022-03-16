@@ -1,0 +1,171 @@
+@import "variables.scss";
+
+.colorPage{
+    background-image: linear-gradient(to top , rgb(230, 214, 231), rgb(247, 225, 248));
+}
+
+#padre{
+    height: 400px;
+}
+
+.row{
+    height: 100%;
+}
+
+.top, .bottom {
+    position: absolute;
+    opacity: 1;
+    /*top: 0px;
+    left: 0px;*/
+  }
+  
+  .reveal:hover .top {
+    opacity: 0;
+}
+
+.carousel-inner{
+    height: 15cm;
+    width: 10cm;
+}
+
+.h3{
+    color: whitesmoke;
+}
+
+p2{
+    color: black;
+}
+
+p3{
+    color: whitesmoke;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none disc;
+}
+
+.logo{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.tituloPrincipal{
+    color: rgb(71, 47, 73);
+    font-size: 100px;
+    font-style: italic;
+    text-align: center;
+}
+
+h1{
+    font-size: calc( 100px + 3vw );
+}
+
+p{
+    color: purple;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.colorParrafos{
+    color: rgb(202, 146, 202);
+}
+
+.colorButton1{
+    color: rgb(212, 150, 212);
+    background-color:rgb(228, 190, 228);
+    margin-right: 0pt;
+    margin-left: 0pt;
+    border-left: 0pt;
+    border-right: 0pt;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.colorButton2{
+    color: rgb(137, 98, 141);
+    background-color: rgb(192, 178, 201);
+    margin-right: 0pt;
+    margin-left: 0pt;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.colorButton3{
+    color: rgb(96, 81, 99);
+    background-color: rgb(153, 135, 161);
+    margin-right: 0pt;
+    margin-left: 0pt;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#button1{
+    background-color: rgb(228, 190, 228);
+    padding-top: 8pt;
+    padding-bottom: 8pt;
+    margin-right: 0pt;
+    margin-left: 0pt;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#button2{
+    background-color: rgb(192, 178, 201);
+    padding-top: 8pt;
+    padding-bottom: 8pt;
+    margin-top: 20px;
+}
+
+#button3{
+    background-color: rgb(153, 135, 161);
+    padding-top: 8pt;
+    padding-bottom: 8pt;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+nav{
+    background-color: lightgray;
+    position: sticky;
+    height: 100px;
+    bottom: 0px;
+    top: 0%;
+}
+
+.fotoProducto{
+    height: 50%;
+    width: 50%;
+    object-fit: contain;
+    align-content: center;
+    margin-left: 300px;
+}
+
+.fabrica{
+    height: 100%;
+    width: 100%;
+    object-fit: contain; 
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.footer{
+    background-color: lightgray;
+    position: static;
+    height: 100px;
+    bottom: 0px;
+    top: 0%;
+    text-align: center;
+}
+
+*{margin: 0;
+}
